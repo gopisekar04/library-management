@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+	</script>
+	<title>Sign Up</title>
+	<style>
+		.sign-up-bg-container{
+			background-image: url("https://cdn.pixabay.com/photo/2016/11/21/14/12/books-1845614_1280.jpg");
+			height: 100vh;
+			background-size: cover;
+			padding: 150px 0px 0px 150px;
+			font-size: 30px;
+
+		}
+		button {
+			font-style: italic;
+			font-size: 24px;
+			background-color: brown;
+			border-width: 0px;
+			border-radius: 25px;
+			padding: 10px;
+			color: white;
+			width: 150px;
+		}
+		<
+	</style>
+</head>
+<body>
+	<div class="sign-up-bg-container d-flex flex-column justify-content-center">
+		<div class="d-flex flex-column justigy-content-center">
+			<h2>Sign Up</h2>
+			<form action="add_user.php" method="post">
+				<p>Name: <input type="text" name="name" required></p>
+				Register Number: <input type="text" name="reg_no" required><br><br>
+				Department: <input type="text" name="department" required><br><br>
+				Email: <input type="email" name="email" required><br><br>
+				<button type="submit" value="Submit">submit</button>
+			</form>
+	</div>
+</body>
+</html>
