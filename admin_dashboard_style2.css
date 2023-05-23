@@ -1,0 +1,40 @@
+.admin_dashboard_bg-container{
+    background-image: linear-gradient(-135deg, #c850c0, #4158d0);
+    height: 100vh;
+}
+.adminDashboard_container{
+    margin: 20px;
+}
+.admin_dash_navbar{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px;
+}
+.home_container{
+    background-color: white;  
+    height: 500px;
+    text-align: center ;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+.return_container{
+    background-color: #f0f3f6;
+    text-align: center;
+    border-radius: 20px;
+    width: 550px;
+}
+input{
+    border-width: 0px;
+    border-radius: 20px;
+    padding-left: 60px;
+    margin: 20px;
+    height: 50px;
+    width: 60%;
+    background-color: #e6e6e6;
+
+}
+.icon_admin_dash{
+    margin: 20px;
+}

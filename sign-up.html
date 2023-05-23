@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/af47678b69.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="sign-up.css">
+</head>
+
+<body>
+    <div class="sign-up-page-bg-container d-flex flex-column justify-content-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="sign-up-container ">
+                        <h1>Login</h1>
+                        <div class="form-container">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 col-md-12 col-lg-12 text-center m-5">
+                                        <form method="post" action="add_user.php">                                            
+                                            <i class="fa-solid fa-user"></i><input type="text" name="name" placeholder="Name" required><br>                                            
+                                            <i class="fa-solid fa-registered"></i><input type="text" name="reg_no" placeholder= "Register no"required><br>
+                                            <i class="fa-solid fa-graduation-cap"></i><input type="text" name="department" placeholder= "Department" required><br>
+                                            <i class="fa-solid fa-envelope"></i><input type="email" name="email" placeholder="Email" required>
+                                            <div class=" d-flex flex-row justify-content-center">
+												<div class="btn-style d-flex flex-row justify-content-center">													
+													<button class="btn " style="color: white;" type="submit">sign up</button>
+												</div>  
+											</div>                  
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div> 
+    </div>
+</body>
+
+</html>
